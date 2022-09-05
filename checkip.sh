@@ -2,7 +2,7 @@
 set USERNAME "cisco"
 set PASSWORD "cisco123!"
 set ENABLEPSW "enable-password"
-set HOST "192.168.220.129"
+set HOST "xx.xx.xx.xx"
 spawn ssh -o StrictHostKeyChecking=no $USERNAME@$HOST
 expect "Password: "
 send "$PASSWORD\n"
